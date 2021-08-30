@@ -35,7 +35,7 @@ document.write(ans.slice(0, ans.length - 1));
 let stack = document.querySelector(".stack");
 
 [...stack.children].reverse().forEach(i => stack.append(i));
-[...stack.children].reverse().forEach(i => stack.remove(1));
+//[...stack.children].reverse().forEach(i => stack.remove(1));
 
 stack.addEventListener("click", swap);
 
